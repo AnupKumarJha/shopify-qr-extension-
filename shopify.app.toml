@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "0f0a918d44f48e71864b68647941ca7c"
+name = "Anup-fynd-app1"
+handle = "anup-fynd-app1"
+application_url = "https://delta-dsc-composite-differences.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "anup-fynd.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://delta-dsc-composite-differences.trycloudflare.com/auth/callback",
+  "https://delta-dsc-composite-differences.trycloudflare.com/auth/shopify/callback",
+  "https://delta-dsc-composite-differences.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
